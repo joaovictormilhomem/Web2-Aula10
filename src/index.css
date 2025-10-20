@@ -17,3 +17,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  place-content: end center;
+  place-items: center;
+  min-height: 100vh;
+  width: min(1024px, 100vw);
+  /* width: 100%; */
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-content: end center;
+  place-items: center;
+  min-height: 100vh;
+}
