@@ -38,4 +38,5 @@ body {
   place-content: end center;
   place-items: center;
   min-height: 100vh;
+  font-family: "Open Sans";
 }
